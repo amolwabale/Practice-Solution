@@ -1,0 +1,8 @@
+E:\IT\GitHub\Cuelogic\SOLID.Principles\5.DependencyInversionPrinciple\bin\Debug\5.DependencyInversionPrinciple.exe
+E:\IT\GitHub\Cuelogic\SOLID.Principles\5.DependencyInversionPrinciple\bin\Debug\5.DependencyInversionPrinciple.pdb
+E:\IT\GitHub\Cuelogic\SOLID.Principles\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.exe
+E:\IT\GitHub\Cuelogic\SOLID.Principles\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.pdb
+C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\bin\Debug\5.DependencyInversionPrinciple.exe
+C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\bin\Debug\5.DependencyInversionPrinciple.pdb
+C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.exe
+C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.pdb
