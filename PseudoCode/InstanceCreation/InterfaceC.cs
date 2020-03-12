@@ -4,18 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo1
+namespace InstanceCreation
 {
-    public class Demo
+    interface InterfaceC
     {
-        static Demo()
-        {
-
-        }
-
-        public void Bring()
-        {
-
-        }
+        void GetItem();
     }
 }

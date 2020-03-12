@@ -8,4 +8,3 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\obj\
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\bin\Debug\BubbleSort.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\bin\Debug\BubbleSort.pdb
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.csprojResolveAssemblyReference.cache

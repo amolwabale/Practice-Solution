@@ -8,8 +8,13 @@ namespace InstanceCreation
 {
     class Program
     {
+        //Note -
+        //1. Static constructor must be parameterless
         static void Main(string[] args)
         {
+            //Static class Instantiation
+            ClassC.Print();
+
             var a = new ClassA();
             a.Add(1, 2);
             a.Sub(1, 2);

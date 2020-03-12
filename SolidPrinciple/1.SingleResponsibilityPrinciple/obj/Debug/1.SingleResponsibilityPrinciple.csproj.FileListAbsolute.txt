@@ -4,6 +4,5 @@ E:\IT\GitHub\Cuelogic\SOLID.Principles\1.SingleResponsibilityPrinciple\obj\Debug
 E:\IT\GitHub\Cuelogic\SOLID.Principles\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.pdb
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csprojResolveAssemblyReference.cache
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.pdb

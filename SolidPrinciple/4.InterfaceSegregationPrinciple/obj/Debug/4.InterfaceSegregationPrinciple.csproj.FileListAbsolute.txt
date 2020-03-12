@@ -6,6 +6,5 @@ E:\2019\Software Development\SOLID.Principles-master\4.InterfaceSegregationPrinc
 E:\2019\Software Development\SOLID.Principles-master\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\bin\Debug\4.InterfaceSegregationPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\bin\Debug\4.InterfaceSegregationPrinciple.pdb
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.csprojResolveAssemblyReference.cache
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.pdb

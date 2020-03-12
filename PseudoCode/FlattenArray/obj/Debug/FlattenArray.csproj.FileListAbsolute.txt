@@ -7,6 +7,5 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\FlattenArray\obj\Debug\Fla
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.exe.config
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.pdb
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.csprojResolveAssemblyReference.cache
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.pdb
