@@ -1,5 +1,0 @@
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\Pyramid\bin\Debug\Pyramid.exe.config
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\Pyramid\bin\Debug\Pyramid.exe
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\Pyramid\bin\Debug\Pyramid.pdb
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\Pyramid\obj\Debug\Pyramid.exe
-C:\Amol Wabale\IT\Practice Projects\Practice Solution\Pyramid\obj\Debug\Pyramid.pdb

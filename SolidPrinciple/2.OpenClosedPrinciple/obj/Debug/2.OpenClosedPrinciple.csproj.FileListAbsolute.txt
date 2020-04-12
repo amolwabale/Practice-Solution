@@ -6,3 +6,4 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClose
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedPrinciple\bin\Debug\2.OpenClosedPrinciple.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.pdb
+C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.csprojResolveAssemblyReference.cache

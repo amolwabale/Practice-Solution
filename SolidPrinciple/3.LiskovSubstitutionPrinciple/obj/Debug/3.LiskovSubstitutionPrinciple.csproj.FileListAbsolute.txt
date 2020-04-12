@@ -6,3 +6,4 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSub
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubstitutionPrinciple\bin\Debug\3.LiskovSubstitutionPrinciple.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.pdb
+C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.csprojResolveAssemblyReference.cache

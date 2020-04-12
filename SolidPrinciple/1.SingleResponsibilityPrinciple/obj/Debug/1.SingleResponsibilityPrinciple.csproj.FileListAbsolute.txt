@@ -6,3 +6,4 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleRes
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.pdb
+C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csprojResolveAssemblyReference.cache

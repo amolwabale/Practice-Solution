@@ -13,12 +13,12 @@ namespace ReverseString
             var startIndex = 0;
             var EndIndex = stringToReverse.Length - 1;
             var strArray = stringToReverse.ToCharArray();
-            string[] newArray = new string[EndIndex + 1];
+            char[] newArray = new char[EndIndex + 1];
             var counter = 0;
             while (true)
             {
-                newArray[startIndex] = strArray[EndIndex].ToString();
-                newArray[EndIndex] = strArray[startIndex].ToString();
+                newArray[startIndex] = strArray[EndIndex];
+                newArray[EndIndex] = strArray[startIndex];
                 startIndex++;
                 EndIndex--;
                 if (startIndex > EndIndex)
