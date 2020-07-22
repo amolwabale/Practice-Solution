@@ -48,6 +48,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EB7882B-F330-4951-BC15-C40A3AD2C646}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		SQL Query Sample.sql = SQL Query Sample.sql
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDesignPattern", "DesignPattern\CommandDesignPattern\CommandDesignPattern.csproj", "{92533791-342A-4C28-81B0-11EEDA3C10AB}"

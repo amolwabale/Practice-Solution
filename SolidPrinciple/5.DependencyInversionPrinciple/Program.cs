@@ -10,7 +10,7 @@ namespace _5.DependencyInversionPrinciple
     {
         static void Main(string[] args)
         {
-            
+            //Give example of factory pattern to get db object
         }
     }
 }
