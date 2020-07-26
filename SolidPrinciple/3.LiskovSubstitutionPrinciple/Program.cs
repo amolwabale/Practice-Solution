@@ -10,11 +10,12 @@ namespace _3.LiskovSubstitutionPrinciple
     {
         static void Main(string[] args)
         {
-            Export obj = new ExportToPdf(); // Export to pdf can be substituted
-            obj.Convert(@"c:\demo.txt");
+            List<IEmployee> lst = new List<IEmployee>();
+            lst.Add(new PermanentEmployee());
+            lst.Add(new ContractEmployee());
 
-            Export obj1 = new ExportToExcel(); // Export to Excel can be substituted
-            obj1.Convert(@"c:\demo.txt");
+            Employee obj = new PermanentEmployee();
+        
         }
     }
 }

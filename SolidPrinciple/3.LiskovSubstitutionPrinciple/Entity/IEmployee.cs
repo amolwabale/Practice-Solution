@@ -5,11 +5,10 @@ using System.Text;
 
 namespace _3.LiskovSubstitutionPrinciple.Entity
 {
-    public class ExportToPdf : Export
+    public interface IEmployee
     {
-        public override void Convert(string path)
-        {
-            Console.WriteLine("ExportToPdf");
-        }
+        void GetEmployeeDetails();
+        void GetEmployeeSalary();
+        void getEmployeeType();
     }
 }

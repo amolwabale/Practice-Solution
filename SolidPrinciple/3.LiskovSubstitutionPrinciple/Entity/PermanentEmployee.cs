@@ -5,11 +5,11 @@ using System.Text;
 
 namespace _3.LiskovSubstitutionPrinciple.Entity
 {
-    public class ExportToExcel : Export
+    class PermanentEmployee : Employee
     {
-        public override void Convert(string path)
+        public void GetEmployeeHistory()
         {
-            Console.WriteLine("ExportToExcel");
+            Console.WriteLine("Employee History");
         }
     }
 }
