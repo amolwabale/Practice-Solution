@@ -9,5 +9,16 @@ namespace CodePlayGround.Entity
     public abstract class Employee
     {
         public string Id { get; set; }
+
+       
     }
+
+    public class demo
+    {
+        ~demo()
+        {
+
+        }
+    }
+
 }

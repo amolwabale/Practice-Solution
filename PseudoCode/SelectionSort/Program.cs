@@ -14,7 +14,7 @@ namespace SelectionSort
             {
                 var small = arr[i];
                 var index = 0;
-                for (var j = i; j < arr.Length-1; j++)
+                for (var j = i; j <= arr.Length-1; j++)
                 {
                     if (small >= arr[j]) 
                     {
@@ -30,7 +30,7 @@ namespace SelectionSort
         }
         static void Main(string[] args)
         {
-            var arr = new int[] { 100, 56, 8, 21, 3, 0, 45, 8 };
+            var arr = new int[] { 100, 56, 8, 21, 3, 0, 45, 8, 1, 150 };
             var sortedArray = GetSelectionSortedArray(arr);
         }
     }
