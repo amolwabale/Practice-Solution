@@ -9,9 +9,3 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\SingleTonDes
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\SingleTonDesignPattern\bin\Debug\SingleTonDesignPattern.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.pdb
-C:\Amol Wabale\Documents\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\bin\Debug\SingleTonDesignPattern.exe.config
-C:\Amol Wabale\Documents\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.exe
-C:\Amol Wabale\Documents\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.pdb
-C:\Amol Wabale\Documents\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\bin\Debug\SingleTonDesignPattern.exe
-C:\Amol Wabale\Documents\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\bin\Debug\SingleTonDesignPattern.pdb
-C:\Amol Wabale\Documents\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.csprojResolveAssemblyReference.cache
