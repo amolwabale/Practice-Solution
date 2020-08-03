@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SingleTonDesignPattern
 {
-    public sealed class SingletonTwo
+    public sealed class SingletonDoubleCheck
     {
-        private static SingletonTwo _instance = null;
+        private static SingletonDoubleCheck _instance = null;
         private static readonly  object _lock = new object();
 
-        public static SingletonTwo GetInstance()
+        public static SingletonDoubleCheck GetInstance()
         {
             if (_instance == null)
             {
@@ -19,7 +19,7 @@ namespace SingleTonDesignPattern
                 {
                     if (_instance == null)
                     {
-                        _instance = new SingletonTwo();
+                        _instance = new SingletonDoubleCheck();
                     }
                 }
             }

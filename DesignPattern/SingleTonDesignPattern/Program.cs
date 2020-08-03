@@ -15,7 +15,7 @@ namespace SingleTonDesignPattern
             var instance1 = Singleton.GetInstance;
             instance.PintCount();
 
-            var t = SingletonTwo.GetInstance();
+            var t = SingletonDoubleCheck.GetInstance();
         }
     }
 }
