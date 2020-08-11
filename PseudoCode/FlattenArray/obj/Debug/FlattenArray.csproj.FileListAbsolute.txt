@@ -10,3 +10,9 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\bi
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.csprojResolveAssemblyReference.cache
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.exe.config
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.csprojResolveAssemblyReference.cache
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.pdb

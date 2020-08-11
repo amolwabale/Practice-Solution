@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity\ContractEmployee.cs" />
+    <Compile Include="Entity\CustomDictionary.cs" />
     <Compile Include="Entity\Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

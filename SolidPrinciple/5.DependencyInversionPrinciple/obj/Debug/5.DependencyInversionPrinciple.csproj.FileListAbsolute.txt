@@ -6,3 +6,8 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.Dependenc
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\bin\Debug\5.DependencyInversionPrinciple.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\bin\Debug\5.DependencyInversionPrinciple.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\bin\Debug\5.DependencyInversionPrinciple.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.csprojResolveAssemblyReference.cache
+C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\5.DependencyInversionPrinciple\obj\Debug\5.DependencyInversionPrinciple.pdb

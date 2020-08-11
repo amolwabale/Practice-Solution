@@ -9,3 +9,8 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\bi
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\bin\Debug\SpiralMatrix.exe.config
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\bin\Debug\SpiralMatrix.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.pdb

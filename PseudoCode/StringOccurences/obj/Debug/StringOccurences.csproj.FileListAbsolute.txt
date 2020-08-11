@@ -9,3 +9,8 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurence
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.exe.config
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.pdb

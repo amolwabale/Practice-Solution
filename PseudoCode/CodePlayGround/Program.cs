@@ -12,6 +12,13 @@ namespace CodePlayGround
         static void Main(string[] args)
         {
             ContractEmployee obj = new ContractEmployee();
+
+            //Dictionary<String, String> obj = new Dictionary<string, string>();
+
+            CustomDictionarys<string, int> obj2 = new CustomDictionarys<string, int>();
+            obj2.Add("1", 5);
+            obj2.Add("1", 5);
+
         }
     }
-}
+} 

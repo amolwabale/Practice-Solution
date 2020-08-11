@@ -10,3 +10,9 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeStrin
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.csprojResolveAssemblyReference.cache
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\bin\Debug\PalindromeString.exe.config
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\bin\Debug\PalindromeString.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\bin\Debug\PalindromeString.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.csprojResolveAssemblyReference.cache
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.pdb

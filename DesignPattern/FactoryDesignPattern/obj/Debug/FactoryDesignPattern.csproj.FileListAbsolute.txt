@@ -8,3 +8,8 @@ C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesig
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.pdb
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.exe
 C:\Amol Wabale\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe.config
+C:\Data\Amol\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.exe
+C:\Data\Amol\IT\Practice Projects\Practice Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.pdb
