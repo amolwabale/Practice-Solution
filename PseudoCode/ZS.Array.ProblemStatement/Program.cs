@@ -19,6 +19,12 @@ namespace ZS.Array.ProblemStatement
             string[] Arr1 = { "mango", "apple", "grape", "fig", "apple" };
             string[] Arr2 = { "pineapple", "pomegranate", "papaya", "apple" };
             Evaluate(Arr1,Arr2);
+
+            HashSet<string> obj = new HashSet<string>();
+            foreach(var item in Arr1.Union(Arr2))
+            {
+                obj.Add(item);
+            }
         }
 
         public static void Evaluate(string[] arr1, string[] arr2)
