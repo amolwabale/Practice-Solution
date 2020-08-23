@@ -18,6 +18,7 @@ namespace CodePlayGround
             CustomDictionarys<string, int> obj2 = new CustomDictionarys<string, int>();
             obj2.Add("1", 5);
             obj2.Add("1", 5);
+            
 
         }
     }
