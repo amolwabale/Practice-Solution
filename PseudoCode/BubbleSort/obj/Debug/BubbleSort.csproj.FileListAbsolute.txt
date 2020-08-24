@@ -14,3 +14,4 @@ C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\obj\De
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.pdb
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\bin\Debug\BubbleSort.exe
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\bin\Debug\BubbleSort.pdb
+C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.csprojResolveAssemblyReference.cache
