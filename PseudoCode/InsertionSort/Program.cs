@@ -8,6 +8,10 @@ namespace InsertionSort
 {
     class Program
     {
+        //It consist of two parts, left and right.
+        //Left part consist of sub list which is sorted.
+        //Where else right part is the existing list which is compared to form left list.
+        //In Marathi, Magha sarkawaun insert karache madhe, manje insertion sort.
         static void sort(int[] arr)
         {
             int n = arr.Length;
