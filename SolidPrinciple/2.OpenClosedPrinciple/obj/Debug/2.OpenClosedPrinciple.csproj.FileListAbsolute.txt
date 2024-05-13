@@ -12,3 +12,9 @@ C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedP
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.csprojResolveAssemblyReference.cache
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.exe
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.pdb
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\2.OpenClosedPrinciple\bin\Debug\2.OpenClosedPrinciple.exe
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\2.OpenClosedPrinciple\bin\Debug\2.OpenClosedPrinciple.pdb
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.csprojAssemblyReference.cache
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.csproj.CoreCompileInputs.cache
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.exe
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\2.OpenClosedPrinciple\obj\Debug\2.OpenClosedPrinciple.pdb

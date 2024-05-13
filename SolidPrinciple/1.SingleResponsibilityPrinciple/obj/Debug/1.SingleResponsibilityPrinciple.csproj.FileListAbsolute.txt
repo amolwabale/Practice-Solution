@@ -12,3 +12,9 @@ C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleRespo
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csprojResolveAssemblyReference.cache
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.exe
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.pdb
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.exe
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.pdb
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csprojAssemblyReference.cache
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csproj.CoreCompileInputs.cache
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.exe
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.pdb

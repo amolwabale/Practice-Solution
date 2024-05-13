@@ -16,3 +16,10 @@ C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.csprojResolveAssemblyReference.cache
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.exe
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.pdb
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\PalindromeString\bin\Debug\PalindromeString.exe.config
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\PalindromeString\bin\Debug\PalindromeString.exe
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\PalindromeString\bin\Debug\PalindromeString.pdb
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.csprojAssemblyReference.cache
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.csproj.CoreCompileInputs.cache
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.exe
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\PalindromeString\obj\Debug\PalindromeString.pdb

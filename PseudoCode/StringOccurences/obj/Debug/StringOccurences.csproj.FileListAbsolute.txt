@@ -14,3 +14,9 @@ C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.pdb
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.exe
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.pdb
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.exe.config
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.exe
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.pdb
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.csproj.CoreCompileInputs.cache
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.exe
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.pdb

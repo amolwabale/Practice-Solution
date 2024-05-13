@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -117,13 +118,13 @@ namespace DataStructure.BinaryTree
                 var leftHeight = GetCountofNodes(node.left);
                 var rightHeight = GetCountofNodes(node.right);
 
-                var myHeight = leftHeight+ rightHeight + 1;
+                var myHeight = leftHeight + rightHeight + 1;
                 return myHeight;
             }
 
             public static int GetTreeHeight(Tree node)
             {
-                if(node == null)
+                if (node == null)
                 {
                     return 0;
                 }
@@ -153,7 +154,7 @@ namespace DataStructure.BinaryTree
 
             public static TreeInfo GetDiameter(Tree node)
             {
-                if(node == null)
+                if (node == null)
                 {
                     return new TreeInfo(0, 0);
                 }
@@ -190,12 +191,121 @@ namespace DataStructure.BinaryTree
                 var sum = left + right;
                 return sum;
             }
+
+            public static Tree BuildBST(Tree node, int val)
+            {
+
+                if (node == null)
+                {
+                    node = new Tree(val);
+                    return node;
+                }
+                if (val < node.data)
+                {
+                    node.left = BuildBST(node.left, val);
+                }
+                else
+                {
+                    node.right = BuildBST(node.right, val);
+                }
+                return node;
+            }
+
+            //Complexity - O(n), where n = height
+            public static bool isPresentInBST(Tree node, int val)
+            {
+                if (node == null)
+                {
+                    return false;
+                }
+                if (node.data == val)
+                {
+                    return true;
+                }
+                if (val < node.data)
+                {
+                    return isPresentInBST(node.left, val);
+                }
+                else
+                {
+                    return isPresentInBST(node.right, val);
+                }
+
+            }
+
+            public static void PrintTreePaths(Tree node, ArrayList arr)
+            {
+                if (node == null)
+                    return;
+                arr.Add(node.data);
+                if (node.left == null && node.right == null)
+                {
+                    foreach (var item in arr)
+                    {
+                        Console.WriteLine(item);
+                    }
+                    Console.WriteLine(Environment.NewLine);
+                }
+                else
+                {
+                    PrintTreePaths(node.left, arr);
+                    PrintTreePaths(node.right, arr);
+                }
+                arr.RemoveAt(arr.Count - 1);
+
+            }
+
+            public static void PrintInRange(Tree node, int x, int y)
+            {
+                if(node == null)
+                    return;
+                if(x <= node.data && node.data <= y)
+                {
+                    PrintInRange(node.left, x, y);
+                    Console.WriteLine(node.data);
+                    PrintInRange(node.right, x, y);
+                }
+                else if(y < node.data)
+                {
+                    PrintInRange(node.left, x, y);
+                }
+                else
+                {
+                    PrintInRange(node.right, x, y);
+                }
+            }
+
+            public static void PerformHashSet()
+            {
+                HashSet<int> set = new HashSet<int>();
+
+                set.Add(1);
+                set.Add(2);
+                set.Add(3);
+
+                foreach(var item in set)
+                {
+                    Console.WriteLine(item);
+                }
+
+                set.Add(1); //tis caoonot be added
+
+                if (set.Contains(2))
+                {
+                    Console.WriteLine("present");
+                }
+
+                var total = set.Count;
+
+            }
         }
 
 
         static void Main(string[] args)
         {
-            int[] arr = new int[] { 1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1 };
+
+
+            int[] arr = new int[] { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
             var data = Tree.BuildTree(arr);
             Tree.PreorderTraversal(data);
 
@@ -211,6 +321,21 @@ namespace DataStructure.BinaryTree
             //Tree.PostOrderTraversal(data);
             //Tree.LevelOrderTraversal(data);
 
+
+            int[] bstArr = new int[] { 5, 3, 4, 1, 0, 7, 4 };
+
+            Tree root = null;
+            for (var i = 0; i < bstArr.Length; i++)
+            {
+                root = Tree.BuildBST(root, bstArr[i]);
+            }
+
+            var isPresent = Tree.isPresentInBST(root, 4);
+
+            Tree.PrintTreePaths(root, new ArrayList());
+            Tree.PrintInRange(root, 3, 5);
+
+            Tree.PerformHashSet();
         }
     }
 }

@@ -14,3 +14,9 @@ C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\OptionalConstruct
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\OptionalConstructor\bin\Debug\Demo1.pdb
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.exe
 C:\Data\Amol\IT\Practice Projects\Practice Solution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.pdb
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\bin\Debug\Demo1.exe.config
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\bin\Debug\Demo1.exe
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\bin\Debug\Demo1.pdb
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\obj\Debug\OptionalConstructor.csproj.CoreCompileInputs.cache
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.exe
+C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.pdb

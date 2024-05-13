@@ -12,3 +12,9 @@ C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubst
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.csprojResolveAssemblyReference.cache
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.exe
 C:\Data\Amol\IT\Practice Projects\Practice Solution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.pdb
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\3.LiskovSubstitutionPrinciple\bin\Debug\3.LiskovSubstitutionPrinciple.exe
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\3.LiskovSubstitutionPrinciple\bin\Debug\3.LiskovSubstitutionPrinciple.pdb
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.csprojAssemblyReference.cache
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.csproj.CoreCompileInputs.cache
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.exe
+C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\3.LiskovSubstitutionPrinciple\obj\Debug\3.LiskovSubstitutionPrinciple.pdb
