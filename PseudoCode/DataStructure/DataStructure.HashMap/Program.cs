@@ -37,10 +37,28 @@ namespace DataStructure.HashMap
                 }
             }
 
-            private int GetBucketIndex(K key)
+            private void reHash()
             {
-                var bi = GetHash(key);
-                return bi;  
+                N = N * 2;
+
+                var newBucket = new LinkedList<Node>[N];
+
+                for(var i = 0; i < newBucket.Count(); i++)
+                {
+                    newBucket[i] = new LinkedList<Node>();
+
+                }
+
+                for (var i = 0; i < buckets.Count(); i++)
+                {
+                    foreach(var item in buckets[i])
+                    {
+                        var bi = GetHash(item.Key);
+                        newBucket[bi].AddLast(item);
+                    }
+
+                }
+                buckets = newBucket;
             }
 
             private int SearchInLL(int bi, K key)
@@ -83,6 +101,9 @@ namespace DataStructure.HashMap
                     var node = buckets[bi].ElementAt(lli);
                     node.Value = value;
                 }
+
+                if ((n / N) > constant)
+                    reHash();
             }
 
             public void Remove(K key)
