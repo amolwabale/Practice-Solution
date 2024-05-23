@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.HashMapExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubArraySumofK", "PseudoCode\Misc\SubArraySumofK\SubArraySumofK.csproj", "{E344F9C1-698B-4B24-9249-4576990DECA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.Trie", "PseudoCode\DataStructure\DataStructure.Trie\DataStructure.Trie.csproj", "{44A2AF95-CD6F-4A18-9987-FB4C2BF5CC4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{E344F9C1-698B-4B24-9249-4576990DECA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E344F9C1-698B-4B24-9249-4576990DECA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E344F9C1-698B-4B24-9249-4576990DECA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A2AF95-CD6F-4A18-9987-FB4C2BF5CC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A2AF95-CD6F-4A18-9987-FB4C2BF5CC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A2AF95-CD6F-4A18-9987-FB4C2BF5CC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A2AF95-CD6F-4A18-9987-FB4C2BF5CC4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -289,6 +295,7 @@ Global
 		{1D92F1CE-79B9-4B61-A5CC-1A5337F84817} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
 		{E3EA638B-C725-4FBB-8E8F-4E675E253C40} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
 		{E344F9C1-698B-4B24-9249-4576990DECA8} = {B1770E37-85FD-49B6-8648-929D01DA6D5F}
+		{44A2AF95-CD6F-4A18-9987-FB4C2BF5CC4A} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB09A17D-5F52-4B0C-8712-B137875396AF}
