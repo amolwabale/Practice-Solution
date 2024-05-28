@@ -124,6 +124,11 @@ namespace DataStructure.HashMap
             }
 
         }
+
+        //NOTES:
+        //HASHING: It is a technique of identifying an object within a group of similar object.
+        //How to Hash: Take hash of your key and than find the modulus by total number of items.
+        //E.g. Student in school has roll number which is unique and can help to get his entire details.
         static void Main(string[] args)
         {
             HashMap<string, int> hm = new HashMap<string, int>();
@@ -132,9 +137,7 @@ namespace DataStructure.HashMap
             hm.Add("Belgium", 42);
             hm.Add("Colorado", 83);
             hm.Add("Canada", 90);
-
             hm.Add("India", 897);
-
             hm.Remove("Belgium");
         }
     }

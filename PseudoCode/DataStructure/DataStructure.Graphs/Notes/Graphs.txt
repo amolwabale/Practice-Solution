@@ -1,0 +1,46 @@
+﻿Graph - 
+It is a network of nodes.
+
+Types of graph - 
+1. Directed Graph		- When the diretion are given on edges
+2. Un Directed Graph	- When there are no diretion on edges
+3. Weighted graph		- When the measures are given on edges to quantify it.
+4. Un Weighted graph	- When there are no measures on edges to quantify it.
+
+Vertex - 
+It is a single node in graph.
+
+Types of Vertex - 
+1. Unidirectional
+2. Bi-directional
+
+Edges - 
+Connection between to vertex/node is called edges.
+
+Application - 
+1. Maps
+2. Social N/W
+
+Graph Algorith - Shortst Cyclic Path
+
+How to store graph in code - 
+1. Adjacency List
+2. Adjacency Matrix
+3. Edge List
+4. 2D Matrix.
+
+
+Adjajency List
+Time Complexity - O(x), where x is exact number of vertices.
+
+Adjacency Matrix
+Time Complexity - O(v), where v is toal number of vertices.
+it has linear time complexity.
+even if it has one neighbour, it will traverse all cells in matrix for that row.
+It occupies too much space.
+It is not used much in algorithms. 
+
+Edge List
+It stores the edges information of source and destination in an array list.
+ 
+
