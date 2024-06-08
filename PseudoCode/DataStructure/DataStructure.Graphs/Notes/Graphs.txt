@@ -21,7 +21,7 @@ Application -
 1. Maps
 2. Social N/W
 
-Graph Algorith - Shortst Cyclic Path
+Graph Algorith - Shortst Cyclic Path, Floof Fill, 
 
 How to store graph in code - 
 1. Adjacency List
@@ -42,5 +42,23 @@ It is not used much in algorithms.
 
 Edge List
 It stores the edges information of source and destination in an array list.
+
+Implicit Graph
+It is a 2D array. use to traverse left right, up and down.
+
+GRAPH TRAVERSALS
+
+Breadth First Search
+Time complexity - O(V + E)
+V = Total number of vertices 
+E = Total number of Edges. Even if vertices are less edges can be maximum.
+
+Depth First Search
+Time complexity - O(V + E)
+V = Total number of vertices 
+E = Total number of Edges. Even if vertices are less edges can be maximum.
+
+Directed Graph
+
  
 
