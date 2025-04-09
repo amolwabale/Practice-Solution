@@ -21,3 +21,10 @@ C:\AmolWabale\Personal\PracticeSolution\PseudoCode\SpiralMatrix\obj\Debug\Spiral
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.exe
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\SpiralMatrix\bin\Debug\SpiralMatrix.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\SpiralMatrix\bin\Debug\SpiralMatrix.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\SpiralMatrix\obj\Debug\SpiralMatrix.pdb

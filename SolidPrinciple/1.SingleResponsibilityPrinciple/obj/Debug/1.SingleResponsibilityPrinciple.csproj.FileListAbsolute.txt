@@ -18,3 +18,10 @@ C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPri
 C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.exe
 C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.pdb
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.exe
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\bin\Debug\1.SingleResponsibilityPrinciple.pdb
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.exe
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\1.SingleResponsibilityPrinciple\obj\Debug\1.SingleResponsibilityPrinciple.pdb

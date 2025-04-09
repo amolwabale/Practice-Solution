@@ -20,3 +20,10 @@ C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\4.InterfaceSegregationPri
 C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.exe
 C:\AmolWabale\Personal\PracticeSolution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.pdb
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\bin\Debug\4.InterfaceSegregationPrinciple.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\bin\Debug\4.InterfaceSegregationPrinciple.exe
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\bin\Debug\4.InterfaceSegregationPrinciple.pdb
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.exe
+C:\Amol Wabale\Projects\Practice-Solution\SolidPrinciple\4.InterfaceSegregationPrinciple\obj\Debug\4.InterfaceSegregationPrinciple.pdb

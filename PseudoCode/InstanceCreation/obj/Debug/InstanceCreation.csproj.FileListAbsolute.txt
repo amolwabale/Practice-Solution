@@ -23,3 +23,10 @@ C:\AmolWabale\Personal\PracticeSolution\PseudoCode\InstanceCreation\obj\Debug\In
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\InstanceCreation\obj\Debug\InstanceCreation.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\InstanceCreation\obj\Debug\InstanceCreation.exe
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\InstanceCreation\obj\Debug\InstanceCreation.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\InstanceCreation\bin\Debug\InstanceCreation.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\InstanceCreation\bin\Debug\InstanceCreation.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\InstanceCreation\bin\Debug\InstanceCreation.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\InstanceCreation\obj\Debug\InstanceCreation.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\InstanceCreation\obj\Debug\InstanceCreation.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\InstanceCreation\obj\Debug\InstanceCreation.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\InstanceCreation\obj\Debug\InstanceCreation.pdb

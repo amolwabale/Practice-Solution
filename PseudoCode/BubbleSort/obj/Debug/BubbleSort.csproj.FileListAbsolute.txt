@@ -22,3 +22,10 @@ C:\AmolWabale\Personal\PracticeSolution\PseudoCode\BubbleSort\obj\Debug\BubbleSo
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.exe
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\BubbleSort\bin\Debug\BubbleSort.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\BubbleSort\bin\Debug\BubbleSort.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\BubbleSort\bin\Debug\BubbleSort.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\BubbleSort\obj\Debug\BubbleSort.pdb

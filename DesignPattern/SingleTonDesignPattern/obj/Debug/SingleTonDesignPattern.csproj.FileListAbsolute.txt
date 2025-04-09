@@ -21,3 +21,10 @@ C:\AmolWabale\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\obj
 C:\AmolWabale\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.exe
 C:\AmolWabale\Personal\PracticeSolution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.pdb
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\SingleTonDesignPattern\bin\Debug\SingleTonDesignPattern.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\SingleTonDesignPattern\bin\Debug\SingleTonDesignPattern.exe
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\SingleTonDesignPattern\bin\Debug\SingleTonDesignPattern.pdb
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.exe
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\SingleTonDesignPattern\obj\Debug\SingleTonDesignPattern.pdb

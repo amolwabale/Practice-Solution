@@ -19,3 +19,10 @@ C:\AmolWabale\Personal\PracticeSolution\DesignPattern\FactoryDesignPattern\bin\D
 C:\AmolWabale\Personal\PracticeSolution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.exe
 C:\AmolWabale\Personal\PracticeSolution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.pdb
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.pdb
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.exe
+C:\Amol Wabale\Projects\Practice-Solution\DesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.pdb

@@ -20,3 +20,10 @@ C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\bin\Debug
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\obj\Debug\OptionalConstructor.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.exe
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\OptionalConstructor\bin\Debug\Demo1.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\OptionalConstructor\bin\Debug\Demo1.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\OptionalConstructor\bin\Debug\Demo1.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\OptionalConstructor\obj\Debug\OptionalConstructor.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\OptionalConstructor\obj\Debug\OptionalConstructor.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\OptionalConstructor\obj\Debug\Demo1.pdb

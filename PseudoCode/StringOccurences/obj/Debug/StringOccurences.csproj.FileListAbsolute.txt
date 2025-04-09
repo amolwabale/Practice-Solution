@@ -20,3 +20,10 @@ C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\bin\Debug\St
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.csproj.CoreCompileInputs.cache
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.exe
 C:\AmolWabale\Personal\PracticeSolution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.exe.config
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\StringOccurences\bin\Debug\StringOccurences.pdb
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.csproj.AssemblyReference.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.csproj.CoreCompileInputs.cache
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.exe
+C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\StringOccurences\obj\Debug\StringOccurences.pdb
