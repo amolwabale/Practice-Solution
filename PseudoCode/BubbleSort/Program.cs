@@ -8,6 +8,8 @@ namespace BubbleSort
 {
     class Program
     {
+        //time complexity = O(n^2)
+        //space complexity - O(n)
         static int[] GetSortedArray(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++ )

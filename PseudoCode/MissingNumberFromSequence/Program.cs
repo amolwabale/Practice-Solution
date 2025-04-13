@@ -11,7 +11,10 @@ namespace MissingNumberFromSequence
         static void Main(string[] args)
         {
             int[] seq = { 1, 4, 3, 6, 7 , 5, 8, 9};
+
+            //n*(n+1)/2 it is used to calculate the sum of first n natural number.
             var idealSum = ((seq.Length + 1)*(seq.Length + 2)) / 2;
+
             var actualSum = seq.Sum();
             var missingNum = idealSum - actualSum;
         }

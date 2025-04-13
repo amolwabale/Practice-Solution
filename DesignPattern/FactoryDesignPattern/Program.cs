@@ -9,15 +9,12 @@ namespace FactoryDesignPattern
 {
     class Program
     {
-        //Factory method defined interface for creating an object but let 
-        //sub class decides which object to create.
-
-        //Client -> Factory -> Product
-
         //When to us Factory design Pattern?
-        //1. The object needs to be extended to subclass
-        //2. The class doesnt know what sub-class it has to create.
-        //3. The product implementation tend to change over time and client remains unchanged.
+        //When to object creatoin is complex and you wish to make it abstract to the consumer.
+        //it is required to take runtime decision for class creation.
+        //Converion logic like - pdf, excel, word,
+        //Payment system - credit card, debit card, upi, netbanking
+
         static void Main(string[] args)
         {
             var dbFactory = new DatabaseFactory();

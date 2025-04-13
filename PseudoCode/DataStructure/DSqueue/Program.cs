@@ -1,9 +1,12 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using static DSqueue.Program;
 
 namespace DSqueue
 {
@@ -55,7 +58,65 @@ namespace DSqueue
 
             }
 
+        class CustomQueueList<T>
+        {
+            
+            private List<T> list = new List<T>();
 
+            public void Enque(T item)
+            {
+                list.Add(item);
+            }
+
+            public T DeQueue() { 
+            
+                if(list.Count == 0)
+                {
+                    throw new Exception("Queues is empty");
+                }
+                var item = list[0];
+                list.RemoveAt(0);
+                return item;
+            }
+
+        }
+
+        public class ArrayQueue<T>
+        {
+            int capacity = 0;
+            int front = 0;
+            int rear = -1;
+            T[] arr;
+            int count = 0;
+            public ArrayQueue(int _capacity)
+            {
+                capacity = _capacity;
+                arr = new T[_capacity];
+
+            }
+
+            public void Enqueue(T item)
+            {
+                if (count == capacity)
+                    throw new Exception("Queue full");
+
+                rear = (rear + 1) % capacity;
+                arr[rear] = item;
+                count++;
+
+            }
+
+            public T Dequeue()
+            {
+                if (count == 0)
+                    throw new Exception("Queue blank");
+
+                T item = arr[front];
+                front = (front + 1) % capacity;
+                count--;
+                return item;
+            }
+        }
         static void Main(string[] args)
         {
             //1. Queue is a linear datastructure which follows the order of first in first out(FIFO).
@@ -89,13 +150,31 @@ namespace DSqueue
             cq.Remove();
 
 
-            cq = new CustomQueue(1);
+            cq = new CustomQueue(5);
 
             cq.Add(1);
             cq.Add(5);
 
             cq.Remove();
             cq.Remove();
+
+            var newQueue = new CustomQueueList<int>();
+
+            newQueue.Enque(12);
+            newQueue.Enque(13);
+            newQueue.Enque(14);
+
+            newQueue.DeQueue();
+            newQueue.DeQueue();
+
+            var arrQueue = new ArrayQueue<int>(6);
+            arrQueue.Enqueue(12);
+            arrQueue.Enqueue(13);
+            arrQueue.Enqueue(14);
+
+            var data = arrQueue.Dequeue();
+            data = arrQueue.Dequeue();
+
 
         }
     }

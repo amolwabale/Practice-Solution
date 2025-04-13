@@ -10,8 +10,21 @@ namespace DataStructure.Array
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] { 1, 2, 3, 5, 6, 7 };
+            int[] arr = new int[] { 1, 2, 30, 5, 6, 7 };
             var data = FindMissingNumberFromArray(arr);
+
+            var largetNum = FindLargestNumberInArray(arr);
+        }
+
+        public static int FindLargestNumberInArray(int[] arr)
+        {
+            var largestNumber = 0;
+            for(var i= 0; i< arr.Length; i++)
+            {
+                if (largestNumber < arr[i])
+                    largestNumber = arr[i];
+            }
+            return largestNumber;
         }
 
         public static int FindMissingNumberFromArray(int[] arr)

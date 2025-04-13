@@ -80,7 +80,7 @@ namespace DataStructure.Trie
         {
             var count = 0;
             for (var i = 0; i < rootNode.Children.Length; i++)
-            {
+            {   
                 if (node.Children[i] != null)
                     count += CountUniqueSubString(node.Children[i]);
             }

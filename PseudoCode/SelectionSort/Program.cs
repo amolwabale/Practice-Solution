@@ -10,7 +10,7 @@ namespace SelectionSort
     {
         public static int[] GetSelectionSortedArray(int[] arr)
         {
-            for (var i = 0; i < arr.Length; i++)
+            for (var i = 0; i < arr.Length; i++)                                        
             {
                 var small = arr[i];
                 var index = 0;

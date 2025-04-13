@@ -15,6 +15,12 @@ namespace CommandDesignPattern
             obj.AddCommand(new Open());
             obj.AddCommand(new Print());
             obj.ExecuteCommand();
+
+            //Usage of command design pattern
+            //Undo/redo
+            //Queuing task
+            //remote control
+            //Game development where each where each user input is decoupled from actual logic.
         }
     }
 }

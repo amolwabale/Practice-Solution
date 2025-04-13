@@ -30,3 +30,10 @@ C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\Flat
 C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.csproj.CoreCompileInputs.cache
 C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.exe
 C:\Amol Wabale\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.pdb
+C:\Data\Projects\Practice-Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.exe.config
+C:\Data\Projects\Practice-Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.exe
+C:\Data\Projects\Practice-Solution\PseudoCode\FlattenArray\bin\Debug\FlattenArray.pdb
+C:\Data\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.csproj.AssemblyReference.cache
+C:\Data\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.csproj.CoreCompileInputs.cache
+C:\Data\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.exe
+C:\Data\Projects\Practice-Solution\PseudoCode\FlattenArray\obj\Debug\FlattenArray.pdb
