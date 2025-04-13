@@ -48,7 +48,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EB7882B-F330-4951-BC15-C40A3AD2C646}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		SQL Query Sample.sql = SQL Query Sample.sql
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDesignPattern", "DesignPattern\CommandDesignPattern\CommandDesignPattern.csproj", "{92533791-342A-4C28-81B0-11EEDA3C10AB}"
@@ -108,6 +107,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.Array", "PseudoCode\DataStructure\DataStructure.Array\DataStructure.Array.csproj", "{933B5987-CE3F-4092-BD42-73D6109D84D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "PseudoCode\DataStructure\Practice\Practice.csproj", "{57A87692-049A-4D2C-874F-41257684CF01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{1E0CA073-E631-4F82-99BE-34FC7717752D}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\SQL\16_Page_SQL_Guide_1744351463.pdf = Documents\SQL\16_Page_SQL_Guide_1744351463.pdf
+		Documents\SQL\SQL Query Sample.sql = Documents\SQL\SQL Query Sample.sql
+		Documents\SQL\_Top_50_SQL_Interview_Questions_1744548229.pdf = Documents\SQL\_Top_50_SQL_Interview_Questions_1744548229.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -331,6 +339,7 @@ Global
 		{B87C245C-94B7-496A-AD14-02FF5F8CA0FD} = {B1770E37-85FD-49B6-8648-929D01DA6D5F}
 		{933B5987-CE3F-4092-BD42-73D6109D84D4} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
 		{57A87692-049A-4D2C-874F-41257684CF01} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
+		{1E0CA073-E631-4F82-99BE-34FC7717752D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB09A17D-5F52-4B0C-8712-B137875396AF}
