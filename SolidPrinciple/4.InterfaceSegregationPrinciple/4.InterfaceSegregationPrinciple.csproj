@@ -44,12 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client\AllInOne.cs" />
-    <Compile Include="Client\ColourPrinter.cs" />
-    <Compile Include="Client\LazerPrinter.cs" />
-    <Compile Include="Interface\IGreyScale.cs" />
-    <Compile Include="Interface\IInkjet.cs" />
-    <Compile Include="Interface\IlazerJet.cs" />
+    <Compile Include="Printer.cs" />
+    <Compile Include="PrinterService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -14,10 +14,14 @@ namespace DataStructure.Array
             var data = FindMissingNumberFromArray(arr);
 
             var largetNum = FindLargestNumberInArray(arr);
+
+            RotateArray(arr, 2);
         }
 
         public static int FindLargestNumberInArray(int[] arr)
         {
+           
+
             var largestNumber = 0;
             for(var i= 0; i< arr.Length; i++)
             {
@@ -25,6 +29,34 @@ namespace DataStructure.Array
                     largestNumber = arr[i];
             }
             return largestNumber;
+        }
+
+        public static void RotateArray(int[] nums, int k)
+        {
+            int n = nums.Length;
+            k = k % n; // Handle if k > n
+            if (k == 0) return;
+
+            // Step 1: Reverse entire array
+            Reverse(nums, 0, n - 1);
+
+            // Step 2: Reverse first k elements
+            Reverse(nums, 0, k - 1);
+
+            // Step 3: Reverse the remaining n-k elements
+            Reverse(nums, k, n - 1);
+        }
+
+        void Reverse(int[] arr, int start, int end)
+        {
+            while (start < end)
+            {
+                int temp = arr[start];
+                arr[start] = arr[end];
+                arr[end] = temp;
+                start++;
+                end--;
+            }
         }
 
         public static int FindMissingNumberFromArray(int[] arr)
