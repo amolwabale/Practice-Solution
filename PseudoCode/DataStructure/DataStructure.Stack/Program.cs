@@ -19,6 +19,8 @@ namespace DataStructure.Stack
         //Open brackets must be closed by the same type of brackets.
         //Open brackets must be closed in the correct order.
         //Every closing bracket must have a corresponding opening bracket before it.
+        //Hack to remember - The Castle Gatekeeper Analogy 
+        //To ensure everyone who enters (opens a door) also leaves (closes the same door) in the correct order.
         public static bool BalancedParanthesis(string str)
         {
             Stack<char> st = new Stack<char>();
@@ -54,6 +56,7 @@ namespace DataStructure.Stack
         }
 
 
+        //ack to remember the logic - Walk backward with a stack. Pop all smaller, the top is your taller guy.
         public static int[] FindNextGreaterElements(int[] arr)
         {
             int n = arr.Length;
