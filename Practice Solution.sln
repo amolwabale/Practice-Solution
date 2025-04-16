@@ -117,6 +117,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{1E0CA073-E63
 		Documents\SQL\_Top_50_SQL_Interview_Questions_1744548229.pdf = Documents\SQL\_Top_50_SQL_Interview_Questions_1744548229.pdf
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.LRUCache", "PseudoCode\DataStructure\DataStructure.LRUCache\DataStructure.LRUCache.csproj", "{3CA74703-B3D1-4402-A6CA-A0C8D169D177}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{18FBDF83-DF84-445D-A2F3-9892C0F06CED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -287,6 +291,10 @@ Global
 		{57A87692-049A-4D2C-874F-41257684CF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A87692-049A-4D2C-874F-41257684CF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A87692-049A-4D2C-874F-41257684CF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA74703-B3D1-4402-A6CA-A0C8D169D177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA74703-B3D1-4402-A6CA-A0C8D169D177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA74703-B3D1-4402-A6CA-A0C8D169D177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA74703-B3D1-4402-A6CA-A0C8D169D177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -340,6 +348,8 @@ Global
 		{933B5987-CE3F-4092-BD42-73D6109D84D4} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
 		{57A87692-049A-4D2C-874F-41257684CF01} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
 		{1E0CA073-E631-4F82-99BE-34FC7717752D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3CA74703-B3D1-4402-A6CA-A0C8D169D177} = {D18EA4FF-B886-4BA1-B60E-2FA7B0BA02F5}
+		{18FBDF83-DF84-445D-A2F3-9892C0F06CED} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB09A17D-5F52-4B0C-8712-B137875396AF}

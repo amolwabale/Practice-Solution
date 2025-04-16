@@ -22,6 +22,7 @@ namespace LinkedList
         }
 
 
+        //Time complexity = O(n), Space Complexity = O(1)
         public static Node ReverseIterativeLL(Node node)
         {
             Node curr = node;
@@ -97,6 +98,22 @@ namespace LinkedList
             return false;
         }
 
+        public static Node GetCenterofLinkedList(Node head)
+        {
+            if (head == null)
+                return head;
+
+            Node slow = head;
+            Node fast = head;
+
+            while(fast != null && fast.next != null)
+            {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            return slow;
+        }
+
         public static Node ConcatLinkList(Node head1, Node head2)
         {
             var n1 = head1;
@@ -160,6 +177,8 @@ namespace LinkedList
             }
 
             var data = ConcatLinkList(h1, h2);
+
+            var centerOfLinkedList = GetCenterofLinkedList(h1);
 
         }
     }

@@ -10,13 +10,12 @@ namespace Isogram
     {
         static bool IsIsogram(string isogramString)
         {
-            var strArr = isogramString.ToCharArray();
-            var letterList = new List<string>();
+            var strArr = isogramString.ToLower().ToCharArray();
+            HashSet<char> letterList = new HashSet<char>(); //Hashset has O(1) search complexity where else list has O(n)
             foreach (var item in strArr)
             {
-                var temp = item.ToString().ToLower();
-                if (!letterList.Contains(temp))
-                    letterList.Add(temp);
+                if (!letterList.Contains(item))
+                    letterList.Add(item);
                 else
                     return false;
             }
