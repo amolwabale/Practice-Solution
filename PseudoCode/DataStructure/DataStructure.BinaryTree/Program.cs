@@ -92,6 +92,9 @@ namespace DataStructure.BinaryTree
             }
 
             //Complexity - O(n)
+            //BFS - Breadth First Traversal
+            //Level Order Traversal of a binary tree means visiting the tree level by level,
+            //from top to bottom and left to right at each level.
             public static void LevelOrderTraversal(Tree node)
             {
                 var queue = new Queue<Tree>();
@@ -152,6 +155,8 @@ namespace DataStructure.BinaryTree
             }
 
 
+            //Hack to Remember - "Diameter is the sum of the tallest left and right towers at any station
+            //— and we find the tallest such combo! by taking max"
             public static TreeInfo GetDiameter(Tree node)
             {
                 if (node == null)
@@ -162,15 +167,15 @@ namespace DataStructure.BinaryTree
                 TreeInfo leftTree = GetDiameter(node.left);
                 TreeInfo rightTree = GetDiameter(node.right);
 
-                var myHeight = Math.Max(leftTree.height, rightTree.height) + 1;
+                var height = Math.Max(leftTree.height, rightTree.height) + 1;
 
-                var diam1 = leftTree.diameter;
-                var diam2 = rightTree.diameter;
-                var diam3 = leftTree.height + rightTree.height + 1;
+                var leftDiameter = leftTree.diameter;
+                var rightDiameter = rightTree.diameter;
+                var nodeCount = leftTree.height + rightTree.height + 1;
 
-                var myDiam = Math.Max(Math.Max(diam1, diam2), diam3);
+                var TotalDiameter = Math.Max(Math.Max(leftDiameter, rightDiameter), nodeCount);
 
-                var treeInfo = new TreeInfo(myHeight, myDiam);
+                var treeInfo = new TreeInfo(height, TotalDiameter);
                 return treeInfo;
             }
 
