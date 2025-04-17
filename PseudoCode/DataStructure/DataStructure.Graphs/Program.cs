@@ -94,8 +94,42 @@ namespace DataStructure.Graphs
                     }
                 }
             }
+
+            //Each node (vertex) is added to the queue once → O(V)
+            //Each edge is looked at once(when traversing neighbors) → O(E)
+            //TC = O(V+E)
+            //SC = O(V)
+            //Hack to remember - Conference Call With Friends 
+            //If someone calls back a friend who’s already on the same ongoing call, it’s a cycle!
+            public bool HasCycle(string start, HashSet<string> visited, HashSet<string> recStack)
+            {
+                if (string.IsNullOrEmpty(start))
+                    return false;
+
+                visited.Add(start);
+                recStack.Add(start);
+
+                if (pairs.ContainsKey(start))
+                {
+                    foreach (var neighbour in pairs[start])
+                    {
+                        if (!visited.Contains(neighbour))
+                        {
+                            if (HasCycle(neighbour, visited, recStack))
+                                return true;
+                        }
+                        else if (recStack.Contains(neighbour))
+                            return true;
+
+                    }
+                }
+                recStack.Remove(start);
+                return false;
+            }
+
         }
 
+       
 
         static void Main(string[] args)
         {
@@ -103,9 +137,16 @@ namespace DataStructure.Graphs
             gp.AddEdge("A", "B");
             gp.AddEdge("A", "C");
             gp.AddEdge("C", "D");
-            gp.AddEdge("D", "B");
+            gp.AddEdge("D", "E");
 
             gp.BFS("A");
+
+            HashSet<string> vis = new HashSet<string>();
+            gp.DFS("A", vis);
+
+            HashSet<string> visited = new HashSet<string>();
+            HashSet<string> recStack = new HashSet<string>();
+            var result = gp.HasCycle("A", visited, recStack);
 
         }
     }
