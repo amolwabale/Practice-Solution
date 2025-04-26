@@ -27,6 +27,23 @@ namespace DataStructure.Array
 
             arr = new int[] { 2, 1, 5, 1, 3, 20 };
             var result = MaximumSumSubarrayofSizeK(arr, 3);
+
+            var values = new[]
+                {
+                    new[] { 1, 2 },
+                    new[] { 2, 3 },
+                    new[] { 4, 5 },
+                };
+            FlattenArray(values);
+
+
+            int[] seq = { 1, 4, 3, 6, 7, 5, 8, 9 };
+
+            //n*(n+1)/2 it is used to calculate the sum of first n natural number.
+            var idealSum = ((seq.Length + 1) * (seq.Length + 2)) / 2;
+
+            var actualSum = seq.Sum();
+            var missingNum = idealSum - actualSum;
         }
 
 
@@ -193,6 +210,20 @@ namespace DataStructure.Array
                 arrSum += arr[i];
             }
             return Math.Abs(arrSum - sum);
+        }
+
+        static int[] FlattenArray(int[][] arr)
+        {
+            var counter = 0;
+            int[] newArr = new int[arr.Length * arr.GetUpperBound(0)];
+            foreach (var item in arr)
+            {
+                newArr[counter] = item[0];
+                counter++;
+                newArr[counter] = item[1];
+                counter++;
+            }
+            return newArr;
         }
     }
 }
