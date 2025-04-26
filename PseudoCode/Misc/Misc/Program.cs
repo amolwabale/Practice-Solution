@@ -145,6 +145,16 @@ namespace Misc
 
         static void Main(string[] args)
         {
+
+            var data = new SortedList<string, int>();
+
+            data.Add("amol", 10);
+            data.Add("zzzzz", 1);
+            data.Add("anmol", 50);
+            data.Add("zzzz", 0);
+
+            data.
+
             var password = "writtenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwrittenwritten";
 
             //var hp = HashPassword(password);

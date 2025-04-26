@@ -10,25 +10,25 @@ namespace DataStructure.Graphs
     class Program
     {
 
-       public class Graph
+        public class Graph
         {
-            private Dictionary<string, List<string>> pairs = null;
+            private Dictionary<string, List<(string, int)>> pairs = null;
 
             public Graph()
             {
-                pairs = new Dictionary<string, List<string>>();
+                pairs = new Dictionary<string, List<(string, int)>>();
             }
 
-            public void AddEdge(string k, string v)
+            public void AddEdge(string k, string v, int weight)
             {
                 if (!pairs.ContainsKey(k))
-                    pairs.Add(k, new List<string>());
-                pairs[k].Add(v);
+                    pairs.Add(k, new List<(string, int)>());
+                pairs[k].Add((v, weight));
             }
 
             public void PrintGraph()
             {
-                foreach(var item in pairs.Values)
+                foreach (var item in pairs.Values)
                 {
                     Console.WriteLine($"{item}");
                 }
@@ -50,19 +50,19 @@ namespace DataStructure.Graphs
                 queue.Enqueue(start);
                 hs.Add(start);
 
-                while(queue.Count > 0)
+                while (queue.Count > 0)
                 {
                     var dqueue = queue.Dequeue();
                     Console.WriteLine(dqueue);
                     if (pairs.ContainsKey(dqueue))
                     {
-                        var neighbour = pairs[dqueue];
-                        foreach(var item in neighbour)
+                        var neighbourLst = pairs[dqueue];
+                        foreach (var (neighbour, weight) in neighbourLst)
                         {
-                            if (!hs.Contains(item))
+                            if (!hs.Contains(neighbour))
                             {
-                                queue.Enqueue(item);
-                                hs.Add(item);
+                                queue.Enqueue(neighbour);
+                                hs.Add(neighbour);
                             }
 
                         }
@@ -88,9 +88,9 @@ namespace DataStructure.Graphs
 
                 if (pairs.ContainsKey(start))
                 {
-                    foreach (var item in pairs[start])
+                    foreach (var (neighbour, weight) in pairs[start])
                     {
-                        DFS(item, visited);
+                        DFS(neighbour, visited);
                     }
                 }
             }
@@ -111,7 +111,7 @@ namespace DataStructure.Graphs
 
                 if (pairs.ContainsKey(start))
                 {
-                    foreach (var neighbour in pairs[start])
+                    foreach (var (neighbour, weight) in pairs[start])
                     {
                         if (!visited.Contains(neighbour))
                         {
@@ -127,17 +127,63 @@ namespace DataStructure.Graphs
                 return false;
             }
 
+            public Dictionary<string, int> Dijkstras(string start)
+            {
+                var distances = new Dictionary<string, int>();
+                var pq = new SortedSet<(int, string)>();
+
+                foreach (var item in pairs.Keys)
+                {
+                    distances[item] = int.MaxValue;
+
+                    foreach(var(neighbour, distance) in pairs[item])
+                    {
+                        distances[neighbour] = int.MaxValue;
+                    }
+                }
+
+                distances[start] = 0;
+                pq.Add((0, start));
+
+                while (pq.Count > 0)
+                {
+                    var currentItem = pq.Min();
+                    pq.Remove(currentItem);
+
+                    if (!pairs.ContainsKey(currentItem.Item2))
+                        continue;
+
+                    foreach (var (neighbour, weight) in pairs[currentItem.Item2])
+                    {
+                        var distance = distances[currentItem.Item2] + weight;
+
+                        if (distances[neighbour] != int.MaxValue)
+                            pq.Remove((distances[neighbour], neighbour));
+                        if (distance < distances[neighbour])
+                        {
+                            distances[neighbour] = distance;
+                            if (!pq.Contains((distance, neighbour)))
+                                pq.Add((distance, neighbour));
+                        }
+                    }
+                }
+                return distances;
+            }
+
         }
 
-       
+
 
         static void Main(string[] args)
         {
             Graph gp = new Graph();
-            gp.AddEdge("A", "B");
-            gp.AddEdge("A", "C");
-            gp.AddEdge("C", "D");
-            gp.AddEdge("D", "E");
+            gp.AddEdge("A", "B", 10);
+            gp.AddEdge("A", "C", 1);
+            gp.AddEdge("C", "D", 3);
+            gp.AddEdge("D", "E", 4);
+            gp.AddEdge("B", "F", 2);
+            gp.AddEdge("D", "F", 1);
+            gp.AddEdge("F", "E", 3);
 
             gp.BFS("A");
 
@@ -147,6 +193,8 @@ namespace DataStructure.Graphs
             HashSet<string> visited = new HashSet<string>();
             HashSet<string> recStack = new HashSet<string>();
             var result = gp.HasCycle("A", visited, recStack);
+
+            var distance = gp.Dijkstras("A");
 
         }
     }
