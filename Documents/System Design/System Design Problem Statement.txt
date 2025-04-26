@@ -1,0 +1,97 @@
+➤ 𝐄𝐚𝐬𝐲
+1. Design Parking Garage
+2. Design Vending Machine
+3. Design Distributed Cache
+4. Design Authentication System
+5. Design Distributed Job Scheduler
+6. Design URL Shortener like TinyURL
+7. Design Distributed Key-Value Store
+8. Design Content Delivery Network (CDN)
+9. Design Text Storage Service like Pastebin
+10. Design Unified Payments Interface (UPI)
+
+➤ 𝐌𝐞𝐝𝐢𝐮𝐦
+11. Design Tinder
+12. Design Twitter
+13. Design Reddit
+14. Design Netflix
+15. Design Spotify
+16. Design TikTok
+17. Design Shopify
+18. Design Youtube
+19. Design Facebook
+20. Design WhatsApp
+21. Design Instagram
+22. Design Rate Limiter
+23. Design Google Search
+24. Design Payment System
+26. Design Online Code Editor
+27. Design Notification Service
+28. Design Flight Booking System
+29. Design Stock Exchange System
+30. Design E-commerce Store like Amazon
+31. Design Autocomplete for Search Engines
+32. Design Distributed Message Queue like Kafka
+33. Design an Analytics Platform (Metrics & Logging)
+
+➤ 𝐇𝐚𝐫𝐝
+34. Design Uber
+35. Design Zoom
+36. Design Google Docs
+37. Design Google Maps
+38. Design Distributed Web Crawler
+39. Design Code Deployment System
+40. Design Distributed Locking Service
+41. Design File Sharing System like Dropbox
+42. Design Food Delivery App like Doordash
+43. Design Location Based Service like Yelp
+44. Design Distributed Cloud Storage like S3
+45. Design Ticket Booking System like BookMyShow
+
+𝟮+ 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝗱 𝗟𝗲𝘃𝗲𝗹 𝗗𝗮𝘁𝗮 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀.
+
+1. Explain how Spark handles data in memory vs on disk.
+2. What’s the difference between repartition and coalesce in PySpark?
+3. How would you design a data pipeline to handle daily logs from multiple sources?
+4. How do you handle schema evolution in a Parquet file?
+5. Explain different types of joins in PySpark with examples.
+6. How do you optimize a slow-running Spark job?
+7. What’s the difference between narrow and wide transformations in Spark?
+8. What is watermarking in streaming data processing?
+9. How do you handle late-arriving data in a batch pipeline?
+10. Explain a situation where you had to clean and transform messy JSON data.
+
+𝟱+ 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝗱 𝗟𝗲𝘃𝗲𝗹 𝗗𝗮𝘁𝗮 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀.
+
+1. Design a scalable architecture to process real-time clickstream data.
+2. How do you handle data consistency in distributed systems?
+3. How would you build a fault-tolerant data ingestion system using Kafka?
+4. What’s your strategy to backfill historical data without affecting the current pipeline?
+5. Explain your approach to designing an end-to-end data platform from scratch.
+6. How do you manage data governance, lineage, and auditing in pipelines?
+7. Describe a time you optimized a data pipeline and reduced cost/performance significantly.
+8. How would you build a data lakehouse architecture using Delta Lake or Apache Hudi?
+9. How do you monitor data quality in a highly dynamic pipeline?
+10. What are the best practices for partitioning huge datasets for analytical queries?
+
+Concepts
+1 - Load Balancing: Distributes traffic across multiple servers for reliability and availability.
+2 - Caching: Stores frequently accessed data in memory for faster access.
+3 - Database Sharding: Splits databases to handle large-scale data growth.
+4 - Replication: Copies data across replicas for availability and fault tolerance.
+5 - CAP Theorem: Trade-off between consistency, availability, and partition tolerance.
+6 - Consistent Hashing: Distributes load evenly in dynamic server environments.
+7 - Message Queues: Decouples services using asynchronous event-driven architecture.
+8 - Rate Limiting: Controls request frequency to prevent system overload.
+9 - API Gateway: Centralized entry point for routing API requests.
+10 -  Microservices: Breaks systems into independent, loosely coupled services.
+11 - Service Discovery: Locates services dynamically in distributed systems.
+12 - CDN: Delivers content from edge servers for speed.
+13 - Database Indexing: Speeds up queries by indexing important fields.
+14 - Data Partitioning: Divides data across nodes for scalability and performance.
+15 - Eventual Consistency: Guarantees consistency over time in distributed databases
+16 - WebSockets: Enables bi-directional communication for live updates.
+17 - Scalability: Increases capacity by upgrading or adding machines.
+18 - Fault Tolerance: Ensures system availability during hardware/software failures.
+19 - Monitoring: Tracks metrics and logs to understand system health.
+20 - Authentication & Authorization: Controls user access and verifies identity securely.
