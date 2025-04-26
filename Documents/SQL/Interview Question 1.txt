@@ -1,0 +1,20 @@
+1️⃣ How do you remove duplicate rows while keeping the one with the latest timestamp?
+ 2️⃣ What is the difference between INNER JOIN and LEFT JOIN with examples?
+ 3️⃣ How do you use the GROUP BY clause with multiple columns?
+ 4️⃣ What are the different isolation levels in SQL transactions?
+ 5️⃣ How do you identify orphan records in relational tables?
+ 6️⃣ What is the difference between a temp table and a CTE?
+ 7️⃣ How do you handle dynamic SQL execution?
+ 8️⃣ How do you update one table using data from another table?
+ 9️⃣ What is a surrogate key, and when should you use one?
+ 🔟 How can you enforce referential integrity in SQL databases?
+ 1️⃣1️⃣ What is the difference between CHAR and VARCHAR?
+ 1️⃣2️⃣ How do you convert string data to date format in SQL?
+ 1️⃣3️⃣ How do you handle pagination in SQL queries?
+ 1️⃣4️⃣ How do you identify and resolve deadlocks in SQL Server or any RDBMS?
+ 1️⃣5️⃣ What is a composite key, and how is it different from a primary key?
+ 1️⃣6️⃣ How do you implement soft deletes in SQL?
+ 1️⃣7️⃣ What are indexed views and when should you use them?
+ 1️⃣8️⃣ How do you perform a self-join and when is it useful?
+ 1️⃣9️⃣ How do you log changes to a table over time for audit purposes?
+ 2️⃣0️⃣ How do you calculate the difference between two dates in SQL?
