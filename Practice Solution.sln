@@ -206,6 +206,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringOccurences", "PseudoC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search-Binary", "PseudoCode\SearchAlgorithm\Search-Binary\Search-Binary.csproj", "{76F592EA-8582-44CE-92DB-5E736443C192}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{52A0AACF-1718-458F-A7B2-8D54694BEEC5}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\React\React.docx = Documents\React\React.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -431,6 +436,7 @@ Global
 		{42197EB9-B3AF-41F1-BD38-7CC17F262AD5} = {FA3E830B-BB56-43FA-9830-8E4FF565EA41}
 		{E44C191C-86DD-4E21-B5CE-83F7E17F8ECE} = {FA3E830B-BB56-43FA-9830-8E4FF565EA41}
 		{76F592EA-8582-44CE-92DB-5E736443C192} = {657E3C15-3209-44DE-852D-438B31FE44CB}
+		{52A0AACF-1718-458F-A7B2-8D54694BEEC5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB09A17D-5F52-4B0C-8712-B137875396AF}
