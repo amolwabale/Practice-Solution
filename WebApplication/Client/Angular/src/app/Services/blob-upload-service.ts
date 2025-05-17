@@ -15,7 +15,7 @@ export class BlobUploadService {
    * @param filename Name of the file to upload
    */
   getSasUrl(filename: string): Observable<{ url: string }> {
-    return this.httpClient.get<{ url: string }>(`${this.utilityService.baseUrl}api/GetUploadSasUrl?filename=${filename}`);
+    return this.httpClient.get<{ url: string }>(`/api/GetUploadSasUrl?filename=${filename}`);
   }
 
   /**
