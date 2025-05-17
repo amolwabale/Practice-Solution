@@ -4,6 +4,7 @@ import { FormsComponent } from './Component/forms/forms.component';
 import { LoginComponent } from './Component/login/login.component';
 import { authGuard } from './Services/Common/auth.guard';
 import { ContainerComponent } from './Component/container/container.component';
+import { BlobuploadComponent } from './Component/blobupload/blobupload.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/container/dashboard', pathMatch: 'full' },
@@ -14,7 +15,8 @@ export const routes: Routes = [
             { path: 'forms', component: FormsComponent, canActivate: [authGuard] }
         ]
     },
-    { path: 'login', component: LoginComponent }
+    { path: 'login', component: LoginComponent },
+    { path: 'upload', component: BlobuploadComponent}
 ];
 
 

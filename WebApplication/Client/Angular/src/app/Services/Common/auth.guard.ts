@@ -10,7 +10,7 @@ export const authGuard: CanActivateFn = (route, state) => {
     return true; // Allow access
   } else {
     console.log('User is not authenticated');
-    router.navigate(['/login']);
+    router.navigate(['/upload']);
     return false; // Deny access
   }
 };
