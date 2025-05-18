@@ -6,6 +6,6 @@ var host = new HostBuilder()
     {
         // DI goes here if needed
     }) 
-    .Build(); 
+    .Build();
 
 host.Run();
