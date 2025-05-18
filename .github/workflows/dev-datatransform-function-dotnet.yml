@@ -1,4 +1,5 @@
-name: Build and deploy .NET Core application to Function App dev-datatransform-function-dotnet
+name: CI/CD: dev-datatransform-function-dotnet
+
 on:
   push:
     branches:
