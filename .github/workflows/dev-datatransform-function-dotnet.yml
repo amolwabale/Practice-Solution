@@ -6,10 +6,10 @@ on:
     - master
 env:
   AZURE_FUNCTIONAPP_NAME: dev-datatransform-function-dotnet
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication\Server\.Net 8\AzureFunctionApp\published"
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net 8/AzureFunctionApp/published"
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
-  WORKING_DIRECTORY: "WebApplication\Server\.Net 8\AzureFunctionApp"
+  WORKING_DIRECTORY: "WebApplication/Server/.Net 8/AzureFunctionApp"
   DOTNET_CORE_VERSION_INPROC: 6.0.x
 jobs:
   build:
