@@ -1,54 +1,71 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy dotnet core app to Azure Function App - dev-datatransform-function-dotnet
+name: "CI/CD: dev-datatransform-function-dotnet"
 
 on:
   push:
     branches:
       - master
-  workflow_dispatch:
 
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net8/AzureFunctionApp/published"
-  WORKING_DIRECTORY: "WebApplication/Server/.Net8/AzureFunctionApp"
+  AZURE_FUNCTIONAPP_NAME: dev-datatransform-function-dotnet
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net 8/AzureFunctionApp/published"
   CONFIGURATION: Release
-  DOTNET_VERSION: '8.0.x'
+  DOTNET_CORE_VERSION: 8.0.x
+  WORKING_DIRECTORY: "WebApplication/Server/.Net 8/AzureFunctionApp"
+  DOTNET_CORE_VERSION_INPROC: 6.0.x
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: windows-latest
-    permissions:
-      id-token: write
-      contents: read
-
     steps:
-      - name: 'Checkout GitHub Action'
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup DotNet ${{ env.DOTNET_VERSION }} Environment
-        uses: actions/setup-dotnet@v1
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
+          dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
 
-      - name: 'Publish Function App'
-        run: |
-          dotnet publish "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --output "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}"
+      - name: Setup .NET Core (for inproc extensions)
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_CORE_VERSION_INPROC }}
+          include-prerelease: true
 
-      - name: 'List Published Files'
-        run: |
-          dir "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}" /s
+      - name: Restore
+        run: dotnet restore "${{ env.WORKING_DIRECTORY }}"
 
-      - name: Login to Azure
+      - name: Build
+        run: dotnet build "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --no-restore
+
+      - name: Publish
+        run: dotnet publish "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --no-build --output "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}"
+
+      - name: List Published Files (CMD shell)
+        shell: cmd
+        run: dir "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}" /s
+
+      - name: Publish Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: functionapp
+          path: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: functionapp
+          path: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+
+      - name: Azure Login
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F977BE90267C4A55880779490E0A66A9 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_484D74C569B943E4BDD81172DE84069B }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_D43D927BA63A40E6945DFC525387021E }}
+          creds: ${{ secrets.dev_datatransform_function_dotnet_SPN }}
 
-      - name: 'Run Azure Functions Action'
+      - name: Deploy to Azure Function App
         uses: Azure/functions-action@v1
         with:
-          app-name: 'dev-datatransform-function-dotnet'
-          slot-name: 'stage'
-          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
+          app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
+          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
