@@ -13,14 +13,14 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net8/AzureFunctionApp/published"
   WORKING_DIRECTORY: "WebApplication/Server/.Net8/AzureFunctionApp"
   CONFIGURATION: Release
-  DOTNET_VERSION: '8.0.x' # set this to the dotnet version to use
+  DOTNET_VERSION: '8.0.x'
 
 jobs:
   build-and-deploy:
     runs-on: windows-latest
     permissions:
-      id-token: write #This is required for requesting the JWT
-      contents: read #This is required for actions/checkout
+      id-token: write
+      contents: read
 
     steps:
       - name: 'Checkout GitHub Action'
@@ -31,13 +31,14 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      - name: 'Resolve Project Dependencies Using Dotnet'
-        shell: pwsh
+      - name: 'Publish Function App'
         run: |
-          pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
-          dotnet build --configuration Release --output ./output
-          popd
-      
+          dotnet publish "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --output "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}"
+
+      - name: 'List Published Files'
+        run: |
+          dir "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}" /s
+
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -47,9 +48,7 @@ jobs:
 
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
-        id: fa
         with:
           app-name: 'dev-datatransform-function-dotnet'
           slot-name: 'stage'
-          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          
+          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
