@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net 8/AzureFunctionApp/published"
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net8/AzureFunctionApp/published"
   CONFIGURATION: Release
   DOTNET_VERSION: '8.0.x' # set this to the dotnet version to use
 
