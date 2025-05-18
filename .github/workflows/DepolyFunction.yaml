@@ -3,7 +3,11 @@ name: Deploy DotNet project to Azure Function App
 on:
   push:
     branches:
-      - main  # Change this to your target branch
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - master
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'dev-datatransform-function'
