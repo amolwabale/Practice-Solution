@@ -1,4 +1,4 @@
-name: CI/CD: dev-datatransform-function-dotnet
+name: "CI/CD: dev-datatransform-function-dotnet"
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: CI/CD: dev-datatransform-staticwebapp-int01
+name: "CI/CD: dev-datatransform-staticwebapp-int01"
 
 on:
   push:
