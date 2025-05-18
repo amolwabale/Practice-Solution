@@ -5,7 +5,7 @@ var host = new HostBuilder()
     .ConfigureServices(services =>
     {
         // DI goes here if needed
-    })
+    }) 
     .Build();
 
 host.Run();
