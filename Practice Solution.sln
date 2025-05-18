@@ -201,6 +201,24 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular(1)", "Web Applicati
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "53030"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53030"
+		Debug.AspNetCompiler.PhysicalPath = "Web Application\Client\Angular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53030\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53030"
+		Release.AspNetCompiler.PhysicalPath = "Web Application\Client\Angular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53030\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53030"
 		SlnRelativePath = "Web Application\Client\Angular\"
 	EndProjectSection
 EndProject
@@ -225,11 +243,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{52A0AACF
 		Documents\React\React.docx = Documents\React\React.docx
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "WebApplication\Server\.Net 8\Library\Library.csproj", "{E69BF7D5-1437-D213-354E-B48A76542191}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProject", "WebApplication\Server\.Net 8\PracticeProject\PracticeProject.csproj", "{A7281282-D02E-B799-9E88-2B694E31E75E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionApp", "WebApplication\Server\.Net 8\AzureFunctionApp\AzureFunctionApp.csproj", "{AE87EEBC-F282-48F3-8771-FF2EEA6E6562}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionApp", "WebApplication\Server\.Net8\AzureFunctionApp\AzureFunctionApp.csproj", "{8FF3034E-A807-D108-9464-5BD4AE12F3B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -389,18 +403,10 @@ Global
 		{76F592EA-8582-44CE-92DB-5E736443C192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F592EA-8582-44CE-92DB-5E736443C192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F592EA-8582-44CE-92DB-5E736443C192}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E69BF7D5-1437-D213-354E-B48A76542191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E69BF7D5-1437-D213-354E-B48A76542191}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E69BF7D5-1437-D213-354E-B48A76542191}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E69BF7D5-1437-D213-354E-B48A76542191}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7281282-D02E-B799-9E88-2B694E31E75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7281282-D02E-B799-9E88-2B694E31E75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7281282-D02E-B799-9E88-2B694E31E75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7281282-D02E-B799-9E88-2B694E31E75E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE87EEBC-F282-48F3-8771-FF2EEA6E6562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE87EEBC-F282-48F3-8771-FF2EEA6E6562}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE87EEBC-F282-48F3-8771-FF2EEA6E6562}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE87EEBC-F282-48F3-8771-FF2EEA6E6562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF3034E-A807-D108-9464-5BD4AE12F3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF3034E-A807-D108-9464-5BD4AE12F3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF3034E-A807-D108-9464-5BD4AE12F3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF3034E-A807-D108-9464-5BD4AE12F3B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -459,9 +465,7 @@ Global
 		{E44C191C-86DD-4E21-B5CE-83F7E17F8ECE} = {FA3E830B-BB56-43FA-9830-8E4FF565EA41}
 		{76F592EA-8582-44CE-92DB-5E736443C192} = {657E3C15-3209-44DE-852D-438B31FE44CB}
 		{52A0AACF-1718-458F-A7B2-8D54694BEEC5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{E69BF7D5-1437-D213-354E-B48A76542191} = {0BCCADE8-9400-48C1-B035-A3A3CB58CF18}
-		{A7281282-D02E-B799-9E88-2B694E31E75E} = {0BCCADE8-9400-48C1-B035-A3A3CB58CF18}
-		{AE87EEBC-F282-48F3-8771-FF2EEA6E6562} = {0BCCADE8-9400-48C1-B035-A3A3CB58CF18}
+		{8FF3034E-A807-D108-9464-5BD4AE12F3B6} = {0BCCADE8-9400-48C1-B035-A3A3CB58CF18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB09A17D-5F52-4B0C-8712-B137875396AF}

@@ -11,6 +11,7 @@ on:
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net8/AzureFunctionApp/published"
+  WORKING_DIRECTORY: "WebApplication/Server/.Net8/AzureFunctionApp"
   CONFIGURATION: Release
   DOTNET_VERSION: '8.0.x' # set this to the dotnet version to use
 
