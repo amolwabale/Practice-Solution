@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DataStructure.Graphs.Program;
 
 namespace DataStructure.Graphs
 {
@@ -12,6 +13,14 @@ namespace DataStructure.Graphs
 
         public class Graph
         {
+
+         //28. Implement depth-first search(DFS).
+         //29. Implement breadth-first search(BFS).
+         //30. Find the shortest path between two nodes in an unweighted graph.
+         //31. Detect a cycle in an undirected graph using DFS.
+         //32. Check if a graph is bipartite.
+         //33. Find the number of connected components in an undirected graph.
+         //34. Find bridges in a graph.
             private Dictionary<string, List<(string, int)>> pairs = null;
 
             public Graph()

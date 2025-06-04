@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,6 +9,10 @@ namespace BubbleSort
 {
     class Program
     {
+        //35. Implement(bubble, insertion, selection, merge) sort.
+        // 36. Implement quicksort.
+        //40. Given an array of integers, count the number of inversions it has.An inversion occurs when two elements in the array are out of order.
+        
         //time complexity = O(n^2)
         //space complexity - O(n)
         static int[] GetSortedArray(int[] arr)

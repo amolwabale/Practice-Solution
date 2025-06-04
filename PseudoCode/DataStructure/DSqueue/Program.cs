@@ -6,13 +6,18 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using static DSqueue.Program;
 
 namespace DSqueue
 {
     class Program
     {
-
+         //16. Implement a stack using an array.
+         //17. Implement a stack that supports push, pop, top, and retrieving the minimum element.
+         //18. Implement a circular queue.
+         //19. Design a max stack that supports push, pop, top, and retrieve the maximum element.
+         //20. Design a queue using stacks.
         class CustomQueue
         {
             static int[] arr;

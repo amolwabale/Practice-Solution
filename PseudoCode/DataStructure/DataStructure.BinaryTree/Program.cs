@@ -4,11 +4,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DataStructure.BinaryTree.Program;
 
 namespace DataStructure.BinaryTree
 {
     class Program
     {
+         //21. Find the height of a binary tree.
+         //22. Find the lowest common ancestor of two nodes in a binary tree.
+         //23. Validate if a binary tree is a valid binary search tree.
+         //24. Serialize and deserialize a binary tree.
+         //25. Implement an inorder traversal of a binary tree.
+         //26. Find the diameter of a binary tree.
+         //27. Convert a binary tree to its mirror tree.
         public class TreeInfo
         {
             public int height { get; set; }

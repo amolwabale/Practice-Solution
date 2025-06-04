@@ -2,7 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +12,12 @@ namespace LinkedList
 {
     class Program
     {
+         //10. Reverse a linked list.
+         //11. Detect a cycle in a linked list.
+         //12. Find the middle of a linked list.
+         //13. Merge two sorted linked lists.
+         //14. Implement a stack using a linked list.
+         //15. Find the intersection point of two linked lists.
         public class Node
         {
             public Node(int _val)

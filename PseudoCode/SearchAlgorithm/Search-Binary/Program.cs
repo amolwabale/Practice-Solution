@@ -8,6 +8,9 @@ namespace Search_Binary
 {
     class Program
     {
+         //37. Implement binary search.
+         //38. Implement interpolation search.
+         //39. Find the kth smallest element in an array.
         static int FindNumber(int[] arr,int target)
         {
             
