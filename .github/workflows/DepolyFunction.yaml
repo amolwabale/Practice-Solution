@@ -1,0 +1,45 @@
+name: Deploy DotNet project to Azure Function App
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - master
+
+env:
+  AZURE_FUNCTIONAPP_NAME: 'dev-datatransform-function'
+  DOTNET_VERSION: '8.0.x'
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: "WebApplication/Server/.Net8/AzureFunctionApp/published"
+  CONFIGURATION: Release
+  WORKING_DIRECTORY: "WebApplication/Server/.Net8/AzureFunctionApp"
+
+jobs:
+  build-and-deploy:
+    runs-on: windows-latest
+    environment: dev
+
+    steps:
+      - name: 'Checkout Code'
+        uses: actions/checkout@v3
+
+      - name: 'Setup .NET SDK'
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: 'Publish Azure Function App'
+        shell: pwsh
+        run: |
+          pushd '${{ env.WORKING_DIRECTORY }}'
+          dotnet publish --configuration ${{ env.CONFIGURATION }} --output "${{ github.workspace }}/${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}"
+          popd
+
+      - name: 'Deploy to Azure Functions'
+        uses: Azure/functions-action@v1
+        with:
+          app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
+          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
+          publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}

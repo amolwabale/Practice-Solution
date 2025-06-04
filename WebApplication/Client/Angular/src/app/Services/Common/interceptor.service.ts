@@ -39,7 +39,7 @@ export class HttpInterceptorService implements HttpInterceptor {
         // Handle errors globally (e.g., unauthorized error)
         if (error.status === 401) {
           // Redirect to login page or perform other logic
-          this.router.navigate(['/login']);
+          this.router.navigate(['/upload']);
         }
         // You can further handle other status codes here
         
