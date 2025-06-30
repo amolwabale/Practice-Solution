@@ -8,6 +8,8 @@ namespace Isogram
 {
     class Program
     {
+        //An isogram is a word or phrase without any repeating letters — that means each letter appears only once.
+        //"machine" → ✅ All letters are unique
         static bool IsIsogram(string isogramString)
         {
             var strArr = isogramString.ToLower().ToCharArray();

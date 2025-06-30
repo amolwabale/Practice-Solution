@@ -30,6 +30,9 @@ namespace PalindromeString
             return true;
         }
 
+        //An anagram is a word or phrase that is made by rearranging the letters of another word or phrase —
+        //using all original letters exactly once
+        //"listen"	"silent"	✅ Yes	Same letters, rearranged
         static bool isAnagram(string one, string two)
         {
             if (one.Length != two.Length)
